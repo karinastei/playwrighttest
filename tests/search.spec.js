@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 
-test("form error", async ({ page }) => {
+test("search", async ({ page }) => {
   // Navigate to the makeup webshop's homepage
   await page.goto("https://www.loverte.com/");
 
